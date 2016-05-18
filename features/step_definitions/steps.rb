@@ -1,5 +1,5 @@
 Given(/^I am on the Youtube home page$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  visit 'http://www.youtube.com'
 end
 
 When(/^I search for "([^"]*)"$/) do |arg1|
