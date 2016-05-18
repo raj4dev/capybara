@@ -8,6 +8,6 @@ When(/^I search for "([^"]*)"$/) do |search_term|
 end
 
 Then(/^videos of large rodents are returned$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  page.should have_content 'Pets 101- Capybaras'
 end
 
